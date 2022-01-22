@@ -1,0 +1,40 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+body{
+    background-size: cover;
+}
+
+#start, #status, #number_of_objects{
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#start:hover, #status:hover, #number_of_objects:hover{
+    background-color: palegreen;
+    color: red;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: aqua;
+    bottom: 0;
+    width: 100%;
+    background-color: deeppink;
+    line-height: 3;
+    text-align: center;
+}
+
+#text_input{
+    border: 2px solid red;
+    border-radius: 5px;
+    color: greenyellow;
+    background-color: orange;
+}
+
+#object_name{
+    color: deeppink;
+}
